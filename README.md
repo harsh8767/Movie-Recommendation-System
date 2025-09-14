@@ -1,5 +1,7 @@
 
 
+---
+
 # 🎬 Movie Recommendation System
 
 A **content-based recommendation system** built with **Python, Pandas, Scikit-learn, and Streamlit**.
@@ -62,14 +64,15 @@ python -m streamlit run app.py
 ## 📂 Project Structure
 
 ```
-Movie_Recommendation/
-│── app.py                 # Streamlit application
-│── preprocess.py          # Preprocessing & pickle file generator
-│── tmdb_5000_movies.csv   # Dataset (movies info)
-│── tmdb_5000_credits.csv  # Dataset (movie credits)
-│── screenshots/           # UI Screenshots
+Movie-Recommendation-System/
+│── app.py                       # Streamlit application
+│── preprocess.py                # Preprocessing & pickle file generator
+│── tmdb_5000_movies.csv         # Movies dataset
+│── tmdb_5000_credits.csv        # Movie credits dataset
+│── screenshots/                 # UI Screenshots
 │    ├── screenshot_home.png
 │    └── screenshot_recommendations.png
+└── README.md                     # Project documentation
 ```
 
 ---
@@ -92,5 +95,4 @@ Movie_Recommendation/
 👨‍💻 Developed by **Harsh Chavan** – [https://github.com/harsh8767](https://github.com/harsh8767)
 
 ---
-
 
